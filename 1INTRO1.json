@@ -1,0 +1,128 @@
+PanoramaStudioViewerParams = {
+"panoramaStudioViewer": {
+"key": "",
+"control": {
+        "mousemode": "drag",
+        "touchmode": "drag"
+    },
+"data": {
+        "id": "globalData",
+        "messageBoxStyle": "min-width: 25%; text-shadow: none; line-height: 100%; color:#ffffff; font-family: Arial,Helvetica,Sans-Serif; font-size: 15px; font-weight: 100; text-align:left; box-shadow: 4px 4px 1px 0px rgba(0,0,0,0.33);background: rgba(0,0,0,0.66);"
+    },
+"include": [
+        {
+            "src": "1INTRO1_controls.json"
+        }
+    ],
+"node": {
+	"autoplay": {
+	        "pan": 2,
+	        "restart": 5,
+	        "status": "off",
+	        "tilt": 0,
+	        "zoom": 1
+	    },
+	"camera": {
+	        "maxpan": 360,
+	        "maxtilt": 30.9460848618977,
+	        "minpan": 0,
+	        "mintilt": -30.9460848618977
+	    },
+	"hotspot": [
+	        {
+	            "animation": {
+	                "duration": 1.28,
+	                "frames": 32,
+	                "height": 64,
+	                "width": 64
+	            },
+	            "bitmap": "pap_rings.png",
+	            "bitmapscale": "1.0",
+	            "bitmaptype": "floating",
+	            "href": "1Masuk1.html",
+	            "opacity": "1.00;1.00",
+	            "position": "67.9457,6.9960",
+	            "target": "",
+	            "textbox": {
+	                "align": "top",
+	                "style": "color:#ffffff; font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-weight: normal; text-align:center; display: inline;",
+	                "text": "Pintu Masuk Keraton Kaibon"
+	            },
+	            "transition": "zoomin,2;blend,2",
+	            "unit": "deg"
+	        },
+	        {
+	            "bitmap": "pap_info_blue.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 2.862650938332081,
+	            "href": "javascript:",
+	            "opacity": "1.00;1.00",
+	            "position": "196.3054,2.3023",
+	            "rotate": 0,
+	            "textbox": {
+	                "align": "top",
+	                "style": "color:#ffffff; font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-weight: normal; text-align:center; display: inline;",
+	                "text": "Rumah Juru Pelihara Keraton Kaibon"
+	            },
+	            "unit": "deg"
+	        },
+	        {
+	            "bitmap": "pap_info_blue.png",
+	            "bitmaptype": "embedded",
+	            "embeddedwidth": 1.9712244719266891,
+	            "href": "javascript:",
+	            "opacity": "1.00;1.00",
+	            "position": "183.1649,1.7021",
+	            "rotate": 358.4451599121094,
+	            "textbox": {
+	                "align": "top",
+	                "style": "color:#ffffff; font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-weight: normal; text-align:center; display: inline;",
+	                "text": "Kantor Satgas Keraton Kaibon"
+	            },
+	            "unit": "deg"
+	        },
+	        {
+	            "bitmap": "pap_info_blue.png",
+	            "bitmapscale": "1.0;1.1",
+	            "bitmaptype": "floating",
+	            "href": "javascript:",
+	            "opacity": "1.00;1.00",
+	            "position": "302.6308,0.9013",
+	            "textbox": {
+	                "align": "top",
+	                "style": "color:#ffffff; font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-weight: normal; text-align:center; display: inline;",
+	                "text": "Pintu Keluar Kawasan Keraton Kaibon"
+	            },
+	            "unit": "deg"
+	        }
+	    ],
+	"hotspots": {
+	        "visible": true
+	    },
+	"id": "1INTRO1",
+	"image":{"baseindex":1,"bitmap":[{"back":{"src":"1INTRO1_tiles/1INTRO1_t_1b_%y_%x.jpg"},"down":{"src":"1INTRO1_tiles/1INTRO1_t_1d_%y_%x.jpg"},"front":{"src":"1INTRO1_tiles/1INTRO1_t_1f_%y_%x.jpg"},"height":2860,"left":{"src":"1INTRO1_tiles/1INTRO1_t_1l_%y_%x.jpg"},"right":{"src":"1INTRO1_tiles/1INTRO1_t_1r_%y_%x.jpg"},"tilesize":480,"up":{"src":"1INTRO1_tiles/1INTRO1_t_1u_%y_%x.jpg"},"width":2860},{"back":{"src":"1INTRO1_tiles/1INTRO1_t_2b_%y_%x.jpg"},"down":{"src":"1INTRO1_tiles/1INTRO1_t_2d_%y_%x.jpg"},"front":{"src":"1INTRO1_tiles/1INTRO1_t_2f_%y_%x.jpg"},"height":1430,"left":{"src":"1INTRO1_tiles/1INTRO1_t_2l_%y_%x.jpg"},"right":{"src":"1INTRO1_tiles/1INTRO1_t_2r_%y_%x.jpg"},"tilesize":480,"up":{"src":"1INTRO1_tiles/1INTRO1_t_2u_%y_%x.jpg"},"width":1430},{"back":{"src":"1INTRO1_tiles/1INTRO1_t_3b_%y_%x.jpg"},"down":{"src":"1INTRO1_tiles/1INTRO1_t_3d_%y_%x.jpg"},"front":{"src":"1INTRO1_tiles/1INTRO1_t_3f_%y_%x.jpg"},"height":715,"left":{"src":"1INTRO1_tiles/1INTRO1_t_3l_%y_%x.jpg"},"right":{"src":"1INTRO1_tiles/1INTRO1_t_3r_%y_%x.jpg"},"tilesize":480,"up":{"src":"1INTRO1_tiles/1INTRO1_t_3u_%y_%x.jpg"},"width":715},{"back":{"src":"1INTRO1_tiles/1INTRO1_t_4b_%y_%x.jpg"},"down":{"src":"1INTRO1_tiles/1INTRO1_t_4d_%y_%x.jpg"},"front":{"src":"1INTRO1_tiles/1INTRO1_t_4f_%y_%x.jpg"},"height":358,"left":{"src":"1INTRO1_tiles/1INTRO1_t_4l_%y_%x.jpg"},"right":{"src":"1INTRO1_tiles/1INTRO1_t_4r_%y_%x.jpg"},"tilesize":480,"up":{"src":"1INTRO1_tiles/1INTRO1_t_4u_%y_%x.jpg"},"width":358}],"multilevel":true,"preview":{"src":"1INTRO1_tiles/1INTRO1_preview.jpg"},"projection":"cubic"},
+	"lensflare": [
+	        {
+	            "brightening": 1,
+	            "pan": 12.138882706432227,
+	            "scale": 1,
+	            "tilt": -0.14021783714430702,
+	            "type": 3
+	        },
+	        {
+	            "brightening": 1,
+	            "pan": 22.474961050523035,
+	            "scale": 1,
+	            "tilt": 6.640482943416207,
+	            "type": 3
+	        }
+	    ],
+	"view": {
+	        "hfov": 90,
+	        "pan": 180,
+	        "tilt": 0
+	    }
+},
+"version": "4.1"
+}
+}
